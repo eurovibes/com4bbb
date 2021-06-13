@@ -1,0 +1,18 @@
+# KiCad 
+*.bak
+*.bck
+*.dcm
+*cache.lib 
+*.kicad_pcb-bak
+*.sch-bak
+*_jlcpcb.csv
+
+*_autosave*
+
+com4bbb.net
+com4bbb.xml
+fp-info-cache
+
+# other backup files
+*~
+\#*#
