@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name pwr_BeagleBone)(type Legacy)(uri ${KIPRJMOD}/pwr_BeagleBone.lib)(options "")(descr ""))
+  (lib (name WPMHD1100xx1S)(type Legacy)(uri ${KIPRJMOD}/WPMHD1100xx1S.lib)(options "")(descr ""))
+)
