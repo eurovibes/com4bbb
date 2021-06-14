@@ -1,90 +1,45 @@
-name: CI
+name: "KiCad CI/CD for com4bbb Beaglebon Black Cape"
 
 # Controls when the action will run. Triggers the workflow on push or pull
 # request events but only for the master branch
-
 on:
   push:
-    branches: [ master ]
     paths:
-      - 'com4bbb.sch'
-      - 'com4bbb.kicad_pcb'
+      - '*.sch'
+      - '*.kicad_pcb'
+      - '*.kibot.yaml'
+      - '.github/workflows/main.yml'
   pull_request:
-    branches: [ master ]
     paths:
-      - 'com4bbb.sch'
-      - 'com4bbb.kicad_pcb'
+      - '*.sch'
+      - '*.kicad_pcb'
+      - '*.kibot.yaml'
+      - '.github/workflows/main.yml'
 
-# A workflow run is made up of one or more jobs that can run sequentially
-# or in parallel
-
+# A workflow run is made up of one or more jobs that can run sequentially or
+# in parallel
 jobs:
-  ERC:
+  Fabrication:
     runs-on: ubuntu-latest
-    container: setsoft/kicad_auto:latest
-
     steps:
     - uses: actions/checkout@v2
-
-    - name: Run ERC
-      run: |
-        [ -f *.sch ] && kiplot  -d Fabrication -s update_xml,run_drc -i
-    - name: Retrieve results
-      uses: actions/upload-artifact@v1
+    - uses: INTI-CMNB/KiBot@v1
       with:
-        name: ERC_Output
-        path: Fabrication
-
-  DRC:
-    runs-on: ubuntu-latest
-    container: setsoft/kicad_auto:latest
-    needs: ERC
-
-    steps:
-    - uses: actions/checkout@v2
-
-    - name: Run DRC
-      run: |
-        [ -f *.kicad_pcb ] && kiplot  -d Fabrication -s update_xml,run_erc -i
+        # Required - kibot config file
+        config: com4bbb.kibot.yaml
+        # optional - prefix to output defined in config
+        dir: 'Fabrication'
+        # optional - schematic file
+        schema: 'com4bbb.sch'
+        # optional - PCB design file
+        board: 'com4bbb.kicad_pcb'
+        verbose: 1
     - name: Retrieve results
-      uses: actions/upload-artifact@v1
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v2
       with:
-        name: DRC_Output
-        path: Fabrication
-
-  FabSch:
-    name: Schematic fabrication files
-    runs-on: ubuntu-latest
-    container: setsoft/kicad_auto:latest
-    needs: ERC
-
-    steps:
-    - uses: actions/checkout@v2
-
-    - name: Run schematic stuff
-      run: |
-        [ -f *.sch ] && kiplot  -d Fabrication -s run_drc,run_erc print_sch
-    - name: Retrieve results
-      uses: actions/upload-artifact@v1
-      with:
-        name: FabSch_Output
-        path: Fabrication
-
-  FabPCB:
-    name: PCB fabrication files
-    runs-on: ubuntu-latest
-    container: setsoft/kicad_auto:latest
-    needs: DRC
-
-    steps:
-    - uses: actions/checkout@v2
-
-    - name: Run PCB stuff
-      run: |
-        [ -f *.kicad_pcb ] && kiplot  -d Fabrication -s all print_front gerbers
-    - name: Retrieve results
-      uses: actions/upload-artifact@v1
-      with:
-        name: FabPCB_Output
-        path: Fabrication
+        name: Fabrication_Main
+        path: |
+          Fabrication/
+        if-no-files-found: warn
 
