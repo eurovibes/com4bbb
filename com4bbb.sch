@@ -8,10 +8,10 @@ Title "Communication Cape for Beaglebone Black (RS485 / WiFi)"
 Date "2021-06-13"
 Rev "0.1"
 Comp "Benedikt Spranger"
-Comment1 ""
-Comment2 "of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/."
-Comment3 "Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy"
-Comment4 "This work is licensed under the Creative Commons"
+Comment1 "SPDX-License-Identifier: CERN-OHL-S-2.0"
+Comment2 "https://ohwr.org/cern_ohl_s_v2.txt"
+Comment3 "To view a copy of this license, visit "
+Comment4 "This work is licensed under the CERN-OHL-S v2"
 $EndDescr
 $Comp
 L power:GNDD #PWR?
@@ -1872,4 +1872,15 @@ Wire Wire Line
 Wire Wire Line
 	1700 4400 1800 4400
 Connection ~ 1700 4400
+$Comp
+L Graphic:Logo_Open_Hardware_Small #LOGO101
+U 1 1 60D23304
+P 6700 7550
+F 0 "#LOGO101" H 6700 7825 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 6700 7325 50  0001 C CNN
+F 2 "" H 6700 7550 50  0001 C CNN
+F 3 "~" H 6700 7550 50  0001 C CNN
+	1    6700 7550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
