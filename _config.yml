@@ -1,0 +1,10 @@
+theme: jekyll-theme-minimal
+
+title: A RS485 / WiFi cape for the Beaglebone Black
+description: The com4bbb cape enhance the Beaglebone Black by a ESP32 based WiFi module and a RS485 tranceiver.
+logo: https://github.com/eurovibes/com4bbb/raw/master/images/com4bbb.png
+show_downloads: true
+
+github:
+  zip_url: downloads/fabrication.zip
+  tar_url: downloads/fabrication.tar.gz
