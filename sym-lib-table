@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "pwr_BeagleBone")(type "KiCad")(uri "${KIPRJMOD}/symbols/pwr_BeagleBone.kicad_sym")(options "")(descr ""))
   (lib (name "WPMHD1100xx1S")(type "KiCad")(uri "${KIPRJMOD}/symbols/WPMHD1100xx1S.kicad_sym")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/symbols/Espressif.kicad_sym")(options "")(descr ""))
 )
