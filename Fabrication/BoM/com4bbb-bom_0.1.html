@@ -5,6 +5,7 @@
 <style>
  .cell-title { vertical-align: bottom; }
  .cell-info { vertical-align: top; padding: 1em;}
+ .cell-extra-info { vertical-align: top; padding: 1em;}
  .cell-stats { vertical-align: top; padding: 1em;}
  .title { font-size:2.5em; font-weight: bold; }
  .subtitle { font-size:1.5em; font-weight: bold; }
@@ -17,10 +18,12 @@
  .td-gen1 { text-align: center; background-color: #E6FFEE;}
  .td-kicad1 { text-align: center; background-color: #FFE6B3;}
  .td-user1 { text-align: center; background-color: #E6F9FF;}
+ .td-nocolor { text-align: center; }
  .color-ref { margin: 25px 0; }
  .color-ref th { text-align: left }
  .color-ref td { padding: 5px 20px; }
  .head-table { margin-bottom: 2em; }
+ .centered-checkmark { font-size: 30vw; text-align: center; color: green; }
  .tg-sort-header::-moz-selection{background:0 0}
  .tg-sort-header::selection{background:0 0}.tg-sort-header{cursor:pointer}
  .tg-sort-header:after{content:'';float:right;border-width:0 5px 5px;border-style:solid;
@@ -84,15 +87,15 @@
    <b>Variant</b>: default<br>
    <b>Revision</b>: 0.1<br>
    <b>Date</b>: 2021-06-13<br>
-   <b>KiCad Version</b>: 5.1.9+dfsg1-1~bpo10+1<br>
+   <b>KiCad Version</b>: 9.0.1+1<br>
  </td>
  <td class="cell-stats">
-   <b>Component Groups</b>: 13<br>
-   <b>Component Count</b>: 50 (per PCB)<br>
+   <b>Component Groups</b>: 12<br>
+   <b>Component Count</b>: 46 (per PCB)<br>
 
-   <b>Fitted Components</b>: 50 (per PCB)<br>
+   <b>Fitted Components</b>: 46 (per PCB)<br>
    <b>Number of PCBs</b>: 1<br>
-   <b>Total Components</b>: 50 (for 1 PCBs)<br>
+   <b>Total Components</b>: 46 (for 1 PCBs)<br>
  </td>
 </tr>
 </table>
@@ -120,7 +123,7 @@
    <td class="td-kicad0">100 nF</td>
    <td class="td-user0"></td>
    <td class="td-user0"></td>
-   <td class="td-user0"><a href="http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name="></a></td>
+   <td class="td-user0"><a href="https://www.digikey.com/products/en?keywords="></a></td>
    <td class="td-kicad0">C_0402_1005Metric</td>
    <td class="td-user0"></td>
    <td class="td-gen0">1</td>
@@ -132,7 +135,7 @@
    <td class="td-kicad1">1N4004</td>
    <td class="td-user1"></td>
    <td class="td-user1"></td>
-   <td class="td-user1"><a href="http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name="></a></td>
+   <td class="td-user1"><a href="https://www.digikey.com/products/en?keywords="></a></td>
    <td class="td-kicad1">D_DO-41_SOD81_P10.16mm_Horizontal</td>
    <td class="td-user1"></td>
    <td class="td-gen1">1</td>
@@ -144,7 +147,7 @@
    <td class="td-kicad0">LED</td>
    <td class="td-user0"></td>
    <td class="td-user0"></td>
-   <td class="td-user0"><a href="http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name="></a></td>
+   <td class="td-user0"><a href="https://www.digikey.com/products/en?keywords="></a></td>
    <td class="td-kicad0">LED_0603_1608Metric</td>
    <td class="td-user0"></td>
    <td class="td-gen0">13</td>
@@ -153,126 +156,114 @@
    <td class="td-gen1">4</td>
    <td class="td-kicad1"><div id="J102"></div><div id="J101"></div>J101 J102</td>
    <td class="td-kicad1">Conn_01x02</td>
-   <td class="td-kicad1">RS485</td>
+   <td class="td-kicad1">PWR</td>
    <td class="td-user1"></td>
    <td class="td-user1"></td>
-   <td class="td-user1"><a href="http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name="></a></td>
-   <td class="td-kicad1">TerminalBlock_WAGO_236-102_1x02_P5.00mm_45Degree</td>
+   <td class="td-user1"><a href="https://www.digikey.com/products/en?keywords="></a></td>
+   <td class="td-kicad1">TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal</td>
    <td class="td-user1"></td>
    <td class="td-gen1">2</td>
   </tr>
   <tr id="4">
    <td class="td-gen0">5</td>
-   <td class="td-kicad0"><div id="JP108"></div><div id="JP107"></div><div id="JP106"></div><div id="JP105"></div>JP105 JP106 JP107 JP108</td>
-   <td class="td-kicad0">Jumper_NO_Small</td>
-   <td class="td-kicad0">A2</td>
+   <td class="td-kicad0"><div id="JP104"></div><div id="JP103"></div><div id="JP102"></div><div id="JP101"></div>JP101 JP102 JP103 JP104</td>
+   <td class="td-kicad0">Jumper_3_Open</td>
+   <td class="td-kicad0">TX</td>
    <td class="td-user0"></td>
    <td class="td-user0"></td>
-   <td class="td-user0"><a href="http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name="></a></td>
-   <td class="td-kicad0">SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</td>
+   <td class="td-user0"><a href="https://www.digikey.com/products/en?keywords="></a></td>
+   <td class="td-kicad0">SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</td>
    <td class="td-user0"></td>
    <td class="td-gen0">4</td>
   </tr>
   <tr id="5">
    <td class="td-gen1">6</td>
-   <td class="td-kicad1"><div id="JP104"></div><div id="JP103"></div><div id="JP102"></div><div id="JP101"></div>JP101 JP102 JP103 JP104</td>
-   <td class="td-kicad1">Jumper_3_Open</td>
-   <td class="td-kicad1">TX</td>
+   <td class="td-kicad1"><div id="P9"></div><div id="P8"></div>P8 P9</td>
+   <td class="td-kicad1">Conn_02x23_Odd_Even</td>
+   <td class="td-kicad1">BeagleBone_Black_Header</td>
    <td class="td-user1"></td>
    <td class="td-user1"></td>
-   <td class="td-user1"><a href="http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name="></a></td>
-   <td class="td-kicad1">SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm</td>
+   <td class="td-user1"><a href="https://www.digikey.com/products/en?keywords="></a></td>
+   <td class="td-kicad1">PinHeader_2x23_P2.54mm_Vertical</td>
    <td class="td-user1"></td>
-   <td class="td-gen1">4</td>
+   <td class="td-gen1">2</td>
   </tr>
   <tr id="6">
    <td class="td-gen0">7</td>
-   <td class="td-kicad0"><div id="P9"></div><div id="P8"></div>P8 P9</td>
-   <td class="td-kicad0">Conn_02x23_Odd_Even</td>
-   <td class="td-kicad0">BeagleBone_Black_Header</td>
+   <td class="td-kicad0"><div id="R117"></div><div id="R116"></div><div id="R115"></div><div id="R114"></div><div id="R113"></div><div id="R112"></div><div id="R111"></div><div id="R110"></div><div id="R109"></div><div id="R108"></div><div id="R107"></div><div id="R106"></div><div id="R105"></div><div id="R104"></div><div id="R103"></div><div id="R102"></div><div id="R101"></div>R101 R102 R103 R104 R105 R106 R107 R108 R109 R110 R111 R112 R113 R114 R115 R116 R117</td>
+   <td class="td-kicad0">R</td>
+   <td class="td-kicad0">1 kΩ</td>
    <td class="td-user0"></td>
    <td class="td-user0"></td>
-   <td class="td-user0"><a href="http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name="></a></td>
-   <td class="td-kicad0">Socket_BeagleBone_Black</td>
+   <td class="td-user0"><a href="https://www.digikey.com/products/en?keywords="></a></td>
+   <td class="td-kicad0">R_0402_1005Metric</td>
    <td class="td-user0"></td>
-   <td class="td-gen0">2</td>
+   <td class="td-gen0">17</td>
   </tr>
   <tr id="7">
    <td class="td-gen1">8</td>
-   <td class="td-kicad1"><div id="R117"></div><div id="R116"></div><div id="R115"></div><div id="R114"></div><div id="R113"></div><div id="R112"></div><div id="R111"></div><div id="R110"></div><div id="R109"></div><div id="R108"></div><div id="R107"></div><div id="R106"></div><div id="R105"></div><div id="R104"></div><div id="R103"></div><div id="R102"></div><div id="R101"></div>R101 R102 R103 R104 R105 R106 R107 R108 R109 R110 R111 R112 R113 R114 R115 R116 R117</td>
-   <td class="td-kicad1">R</td>
-   <td class="td-kicad1">1 kΩ</td>
+   <td class="td-kicad1"><div id="SW102"></div><div id="SW101"></div>SW101 SW102</td>
+   <td class="td-kicad1">SW_Push_45deg</td>
+   <td class="td-kicad1">Reset</td>
    <td class="td-user1"></td>
    <td class="td-user1"></td>
-   <td class="td-user1"><a href="http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name="></a></td>
-   <td class="td-kicad1">R_0402_1005Metric</td>
+   <td class="td-user1"><a href="https://www.digikey.com/products/en?keywords="></a></td>
+   <td class="td-kicad1">SW_PUSH_6mm</td>
    <td class="td-user1"></td>
-   <td class="td-gen1">17</td>
+   <td class="td-gen1">2</td>
   </tr>
   <tr id="8">
    <td class="td-gen0">9</td>
-   <td class="td-kicad0"><div id="SW102"></div><div id="SW101"></div>SW101 SW102</td>
-   <td class="td-kicad0">SW_Push_45deg</td>
-   <td class="td-kicad0">Reset</td>
+   <td class="td-kicad0"><div id="U102"></div>U102</td>
+   <td class="td-kicad0">AT24CS64-SSHM</td>
+   <td class="td-kicad0">AT24C512C-SSHD-T</td>
    <td class="td-user0"></td>
    <td class="td-user0"></td>
-   <td class="td-user0"><a href="http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name="></a></td>
-   <td class="td-kicad0">SW_PUSH_6mm</td>
+   <td class="td-user0"><a href="https://www.digikey.com/products/en?keywords="></a></td>
+   <td class="td-kicad0">SOIC-8_3.9x4.9mm_P1.27mm</td>
    <td class="td-user0"></td>
-   <td class="td-gen0">2</td>
+   <td class="td-gen0">1</td>
   </tr>
   <tr id="9">
    <td class="td-gen1">10</td>
-   <td class="td-kicad1"><div id="U103"></div>U103</td>
-   <td class="td-kicad1">AT24CS64-SSHM</td>
-   <td class="td-kicad1">AT24C512C-SSHD-T</td>
+   <td class="td-kicad1"><div id="U104"></div>U104</td>
+   <td class="td-kicad1">ESP32-WROOM-32U</td>
+   <td class="td-kicad1">ESP32-WROOM-32U</td>
    <td class="td-user1"></td>
    <td class="td-user1"></td>
-   <td class="td-user1"><a href="http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name="></a></td>
-   <td class="td-kicad1">SOIC-8_3.9x4.9mm_P1.27mm</td>
+   <td class="td-user1"><a href="https://www.digikey.com/products/en?keywords="></a></td>
+   <td class="td-kicad1">ESP32-WROOM-32U</td>
    <td class="td-user1"></td>
    <td class="td-gen1">1</td>
   </tr>
   <tr id="10">
    <td class="td-gen0">11</td>
-   <td class="td-kicad0"><div id="U101"></div>U101</td>
-   <td class="td-kicad0">ESP32-WROOM-32U</td>
-   <td class="td-kicad0">ESP32-WROOM-32U</td>
+   <td class="td-kicad0"><div id="U103"></div>U103</td>
+   <td class="td-kicad0">SP3485EN</td>
+   <td class="td-kicad0">SP3485EN</td>
    <td class="td-user0"></td>
    <td class="td-user0"></td>
-   <td class="td-user0"><a href="http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name="></a></td>
-   <td class="td-kicad0">ESP32-WROOM-32U</td>
+   <td class="td-user0"><a href="https://www.digikey.com/products/en?keywords="></a></td>
+   <td class="td-kicad0">SOIC-8_3.9x4.9mm_P1.27mm</td>
    <td class="td-user0"></td>
    <td class="td-gen0">1</td>
   </tr>
   <tr id="11">
    <td class="td-gen1">12</td>
-   <td class="td-kicad1"><div id="U102"></div>U102</td>
-   <td class="td-kicad1">SP3485EN</td>
-   <td class="td-kicad1">SP3485EN</td>
+   <td class="td-kicad1"><div id="U101"></div>U101</td>
+   <td class="td-kicad1">WPMDH1100xx1S</td>
+   <td class="td-kicad1">WPMDH1100xx1S</td>
    <td class="td-user1"></td>
    <td class="td-user1"></td>
-   <td class="td-user1"><a href="http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name="></a></td>
-   <td class="td-kicad1">SOIC-8_3.9x4.9mm_P1.27mm</td>
+   <td class="td-user1"><a href="https://www.digikey.com/products/en?keywords="></a></td>
+   <td class="td-kicad1">WPMDH1100xx1S</td>
    <td class="td-user1"></td>
    <td class="td-gen1">1</td>
-  </tr>
-  <tr id="12">
-   <td class="td-gen0">13</td>
-   <td class="td-kicad0"><div id="U104"></div>U104</td>
-   <td class="td-kicad0">WPMDH1100xx1S</td>
-   <td class="td-kicad0">WPMDH1100xx1S</td>
-   <td class="td-user0"></td>
-   <td class="td-user0"></td>
-   <td class="td-user0"><a href="http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name="></a></td>
-   <td class="td-kicad0">WPMDH1100xx1S</td>
-   <td class="td-user0"></td>
-   <td class="td-gen0">1</td>
   </tr>
  </tbody>
 </table>
 <table class="color-ref">
-<tr><th>Color reference:</th></tr>
+<tr><th>Color reference for columns:</th></tr>
 <tr><td class="td-kicad0">KiCad Fields (default)</td></tr>
 <tr><td class="td-gen0">Generated Fields</td></tr>
 <tr><td class="td-user0">User Fields</td></tr>

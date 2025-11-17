@@ -1,8 +1,0 @@
-** Drc report for /github/workspace/com4bbb.kicad_pcb **
-** Created on 2021-06-27 17:04:14 **
-
-** Found 0 DRC errors **
-
-** Found 0 unconnected pads **
-
-** End of Report **
