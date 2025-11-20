@@ -3,6 +3,7 @@
 
 [![KiCad CI/CD for com4bbb Beaglebon Black Cape](https://github.com/eurovibes/com4bbb/actions/workflows/main.yml/badge.svg)](https://github.com/eurovibes/com4bbb/actions/workflows/main.yml)
 [![License](https://img.shields.io/github/license/eurovibes/com4bbb)](https://github.com/eurovibes/com4bbb/blob/master/LICENSE)
+![GitHub Release](https://img.shields.io/github/v/release/eurovibes/com4bbb)
 ![com4bbb logo](https://github.com/eurovibes/com4bbb/raw/master/images/com4bbb.png "com4bbb logo")
 
 # com4bbb - A RS485 / WiFi cape for Beaglebone Black
