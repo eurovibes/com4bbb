@@ -44,7 +44,7 @@ jobs:
     - name: Gerber Archive
       uses: thedoctor0/zip-release@master
       with:
-        filename: 'Fabrication/gerber.zip'
+        filename: 'downloads/gerber.zip'
         path: 'Fabrication/Gerbers'
 
     - name: Downloads zip Archive
