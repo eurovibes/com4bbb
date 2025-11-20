@@ -14,15 +14,39 @@ global:
 
 import:
   - configs/FusionPCB.kibot.yaml
+  - configs/FusionPCB_position.kibot.yaml
   - configs/JLCPCB.kibot.yaml
+  - configs/JLCPCB_position.kibot.yaml
+  - configs/PCBWay.kibot.yaml
 
 filters:
  - name: 'exclude_any'
-   type: 'generic'
    comment: 'Exclude logos, testpoints, fiducials and power'
+   type: 'generic'
    exclude_any:
      - column: Reference
        regex: '^(G|#|TP|F).*'
+
+ - name: 'only_jlc_parts'
+   comment: 'Only parts with JLC (LCSC) code'
+   type: generic
+   include_only:
+     - column: 'LCSC#'
+       regex: '^C\d+'
+
+ - name: 'only_assemble_parts'
+   comment: 'Only SMD assemble parts'
+   type: generic
+   include_only:
+     - column: 'assemble'
+       regex: '[yY]'
+
+variants:
+  - name: rotated
+    comment: 'Just a place holder for the rotation filter'
+    type: kibom
+    variant: rotated
+    pre_transform: _rot_footprint
 
 outputs:
   - name: 'print_sch'
@@ -61,28 +85,32 @@ outputs:
       columns:
         - Row
         - field: References
-          name: Referencias
+          name: References
         - field: Part
-          name: Parte
+          name: Part
         - field: Value
-          name: Valor
-        - field: manf#
+          name: Value
+        - field: mpn
           name: P/N
-        - field: manf
-          name: Fabricante
+        - field: Manufacture
+          name: Manufacture
+        - field: Source
+          name: Source
         - field: digikey#
-          name: 'Cod. Digi-Key'
+          name: 'Supplier P/N'
+        - field: SupplLink
+          name: Link
         - Footprint
-        - field: Desc
-          name: Descripción
+        - field: Description
+          name: Description
         - 'Quantity Per PCB'
-      group_fields:  ['digikey#', 'Part']
+      group_fields:  ['mpn', 'Part']
       normalize_values: true
       normalize_locale: true
       exclude_filter: 'exclude_any'
       html:
         logo: 'images/com4bbb.png'
-        digikey_link: 'digikey#'
+        digikey_link: 'SupplLink'
         highlight_empty: false
 
   - name: 'bom_xlsx'
