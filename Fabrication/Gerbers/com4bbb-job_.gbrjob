@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "9.0.1+1"
     },
-    "CreationDate": "2025-11-21T01:17:49+00:00"
+    "CreationDate": "2025-11-21T01:45:49+00:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -43,6 +43,16 @@
     {
       "Path": "com4bbb-F_Cu_.gbr",
       "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "com4bbb-In1_Cu_.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "com4bbb-In2_Cu_.gbr",
+      "FileFunction": "Copper,L7,Inr",
       "FilePolarity": "Positive"
     },
     {
