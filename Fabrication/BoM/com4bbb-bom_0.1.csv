@@ -1,19 +1,23 @@
 Row,References,Part,Value,P/N,Manufacture,Source,Supplier P/N,Link,Footprint,Description,Quantity Per PCB
-1,C101,C,100 nF,,Samsung Electro-Mechanics,JLCPCB,,https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525,C_0402_1005Metric,Unpolarized capacitor,1
-2,D101 D102 D103 D104 D105 D106 D107 D108 D109 D110 D111 D112 D113,LED,LED,,Hubei KENTO Elec,JLCPCB,,https://jlcpcb.com/partdetail/Hubei_KENTOElec-KT0603R/C2286,LED_0603_1608Metric,Light emitting diode,13
-3,D114,MRA4004T3G,MRA4004T3G,,,JLCPCB,,https://jlcpcb.com/partdetail/onsemi-MRA4004T3G/C40324,D_SMA,"400V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)",1
-4,D201,SK6812MINI,SK6812MINI,,,JLCPCB,,https://jlcpcb.com/partdetail/OPSCOOptoelectronics-SK6812MINIHS/C2922787,LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm,RGB LED with integrated controller,1
-5,J202,Conn_01x10,JTAG,,,---,,,Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical,"Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)",1
-6,J101 J102,Conn_01x02,RS485,,,Digikey,2946-236-402-ND,,TerminalBlock_WAGO_236-402_1x02_P5.00mm_45Degree,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",2
-7,J201,USB_B_Micro,USB_B_Micro,,,JLCPCB,,https://jlcpcb.com/partdetail/AmphenolICC-101035940001LF/C428495,USB_Micro-B_Amphenol_10103594-0001LF_Horizontal,USB Micro Type B connector,1
-8,P8 P9,Conn_02x23_Odd_Even,BeagleBone_Black_Header,,,TME,,https://www.tme.eu/de/en/details/tsw-123-07-t-d/pin-headers/samtec/,PinHeader_2x23_P2.54mm_Vertical,"Generic connector, double row, 02x23, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",2
-9,R101 R102 R103 R104 R105 R106 R107 R108 R109 R110 R111 R112 R113 R114 R115 R116 R117,R,1 kΩ,,UNI-ROYAL(Uniroyal Elec),JLCPCB,,https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702,R_0402_1005Metric,Resistor,17
-10,SW101 SW102,SW_Push_45deg,Reset,,,TME,,https://www.tme.eu/de/en/details/tact-64n-f/microswitches-tact/ninigi/,SW_PUSH_6mm,"Push button switch, normally open, two pins, 45° tilted",2
-11,U103,AT24CS64-SSHM,AT24C512C-SSHD-T,,Microchip Tech,JLCPCB,,https://jlcpcb.com/partdetail/MicrochipTech-AT24C256C_SSHLT/C6482,SOIC-8_3.9x4.9mm_P1.27mm,"I2C Serial EEPROM, 64Kb (8192x8) with Unique Serial Number, SO8",1
-12,U202,ESP32-S3-WROOM-1,ESP32-S3-WROOM-1,,,JLCPCB,,https://jlcpcb.com/partdetail/3522416-ESP32_S3_WROOM_1UN16R8/C3013946,ESP32-S3-WROOM-1U,"2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 (LE) module Built around ESP32S3 series of SoCs, Xtensa ® dualcore 32bit LX7 microprocessor Flash up to 16 MB, PSRAM up to 8 MB 36 GPIOs, rich set of peripherals Onboard PCB antenna",1
-13,U101,SP3485EN,SP3485EN,,MaxLinear,JLCPCB,,https://jlcpcb.com/partdetail/MaxLinear-SP3485EN_LTR/C8963,SOIC-8_3.9x4.9mm_P1.27mm,"Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SOIC-8",1
-14,U201,USBLC6-2SC6,USBLC6-2SC6,,,JLCPCB,,https://jlcpcb.com/partdetail/2790619-USBLC62SC6/C2687116,SOT-23-6,"Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",1
-15,U102,WPMDH1100xx1S,WPMDH1100xx1S,,,TME,,https://www.tme.eu/de/en/details/r-78k5.0-0.5/dc-dc-converters/recom/,WPMDH1100xx1S,,1
+1,C101 C102,C,100 nF,,Samsung Electro-Mechanics,JLCPCB,,https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525,C_0402_1005Metric,Unpolarized capacitor,2
+2,C103 C104,C_Polarized,1 F,,,TME,,https://www.tme.eu/en/details/scv1f-3.0v-ltz/supercapacitors/spscap/scv0001c0-003r0ltz/,CP_Radial_D8.0mm_P3.50mm,Polarized capacitor,2
+3,D115,1N5819WS,1N5819WS,,,JLCPCB,,https://jlcpcb.com/partdetail/GuangdongHottech-1N5819WS/C191023,D_SOD-323,"40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323",1
+4,D101 D102 D103 D104 D105 D106 D107 D108 D109 D110 D111 D112 D113,LED,LED,,Hubei KENTO Elec,JLCPCB,,https://jlcpcb.com/partdetail/Hubei_KENTOElec-KT0603R/C2286,LED_0603_1608Metric,Light emitting diode,13
+5,D114,MRA4004T3G,MRA4004T3G,,,JLCPCB,,https://jlcpcb.com/partdetail/onsemi-MRA4004T3G/C40324,D_SMA,"400V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)",1
+6,D201,SK6812MINI,SK6812MINI,,,JLCPCB,,https://jlcpcb.com/partdetail/OPSCOOptoelectronics-SK6812MINIHS/C2922787,LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm,RGB LED with integrated controller,1
+7,J202,Conn_01x10,JTAG,,,---,,,Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical,"Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)",1
+8,J101 J102,Conn_01x02,RS485,,,Digikey,2946-236-402-ND,,TerminalBlock_WAGO_236-402_1x02_P5.00mm_45Degree,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",2
+9,J201,USB_B_Micro,USB_B_Micro,,,JLCPCB,,https://jlcpcb.com/partdetail/AmphenolICC-101035940001LF/C428495,USB_Micro-B_Amphenol_10103594-0001LF_Horizontal,USB Micro Type B connector,1
+10,P8 P9,Conn_02x23_Odd_Even,BeagleBone_Black_Header,,,TME,,https://www.tme.eu/de/en/details/tsw-123-07-t-d/pin-headers/samtec/,PinHeader_2x23_P2.54mm_Vertical,"Generic connector, double row, 02x23, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",2
+11,R101 R102 R103 R104 R105 R106 R107 R108 R109 R110 R111 R112 R113 R114 R115 R116 R117 R118,R,1 kΩ,,UNI-ROYAL(Uniroyal Elec),JLCPCB,,https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702 https://jlcpcb.com/partdetail/18168-0805W8F150JT5E/C17480,R_0402_1005Metric,Resistor,18
+12,SW101 SW102,SW_Push_45deg,Reset,,,TME,,https://www.tme.eu/de/en/details/tact-64n-f/microswitches-tact/ninigi/,SW_PUSH_6mm,"Push button switch, normally open, two pins, 45° tilted",2
+13,U103,AT24CS64-SSHM,AT24C512C-SSHD-T,,Microchip Tech,JLCPCB,,https://jlcpcb.com/partdetail/MicrochipTech-AT24C256C_SSHLT/C6482,SOIC-8_3.9x4.9mm_P1.27mm,"I2C Serial EEPROM, 64Kb (8192x8) with Unique Serial Number, SO8",1
+14,U104,ATECC608A-MAHDA,ATECC608A-MAHDA,,,JLCPCB,,https://jlcpcb.com/partdetail/MicrochipTech-ATECC608B_MAHDAT/C17561150,DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm,"Cryptographic Co-Processor with Secure Hardware-based 16 Key Storage, ECDSA and ECDH support, I2C, UDFN-8",1
+15,U105,DS3231MZ,DS3231MZ,,,JLCPCB,,https://jlcpcb.com/partdetail/108629-DS3231MZTRL/C107410,SOIC-8_3.9x4.9mm_P1.27mm,"±5ppm, I2C Real-Time Clock SOIC-8",1
+16,U202,ESP32-S3-WROOM-1,ESP32-S3-WROOM-1,,,JLCPCB,,https://jlcpcb.com/partdetail/3522416-ESP32_S3_WROOM_1UN16R8/C3013946,ESP32-S3-WROOM-1U,"2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 (LE) module Built around ESP32S3 series of SoCs, Xtensa ® dualcore 32bit LX7 microprocessor Flash up to 16 MB, PSRAM up to 8 MB 36 GPIOs, rich set of peripherals Onboard PCB antenna",1
+17,U102,WPMDH1100xx1S,R-78K5.0-0.5,,,TME,,https://www.tme.eu/de/en/details/r-78k5.0-0.5/dc-dc-converters/recom/,WPMDH1100xx1S,,1
+18,U101,SP3485EN,SP3485EN,,MaxLinear,JLCPCB,,https://jlcpcb.com/partdetail/MaxLinear-SP3485EN_LTR/C8963,SOIC-8_3.9x4.9mm_P1.27mm,"Industrial 3.3V Low Power Half-Duplex RS-485 Transceiver 10Mbps, SOIC-8",1
+19,U201,USBLC6-2SC6,USBLC6-2SC6,,,JLCPCB,,https://jlcpcb.com/partdetail/2790619-USBLC62SC6/C2687116,SOT-23-6,"Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",1
 
 
 
@@ -26,8 +30,8 @@ Revision:,0.1
 Date:,2021-06-13
 KiCad Version:,9.0.1+1
 Statistics:
-Component Groups:,15
-Component Count:,46
-Fitted Components:,46
+Component Groups:,19
+Component Count:,53
+Fitted Components:,53
 Number of PCBs:,1
-Total Components:,46
+Total Components:,53
