@@ -1,5 +1,5 @@
 Drill report for com4bbb.kicad_pcb
-Created on 2025-11-22T15:40:48+0000
+Created on 2025-11-29T18:55:36+0000
 
 Copper Layer Stackup:
     =============================================================
@@ -16,11 +16,11 @@ Drill file 'com4bbb-PTH.drl' contains
     T2  0.650mm  0.0256"  (2 holes)  (with 2 slots)
     T3  0.700mm  0.0276"  (2 holes)  (with 2 slots)
     T4  0.800mm  0.0315"  (4 holes)
-    T5  1.000mm  0.0394"  (98 holes)
+    T5  1.000mm  0.0394"  (102 holes)
     T6  1.100mm  0.0433"  (8 holes)
     T7  1.150mm  0.0453"  (8 holes)
 
-    Total plated holes count 197
+    Total plated holes count 201
 
 
 Drill file 'com4bbb-NPTH.drl' contains
