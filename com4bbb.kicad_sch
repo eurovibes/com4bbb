@@ -7,7 +7,7 @@
 	(title_block
 		(title "Communication Cape for Beaglebone Black (RS485 / WiFi)")
 		(date "2021-06-13")
-		(rev "0.1")
+		(rev "0.2")
 		(company "Benedikt Spranger")
 		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0")
 		(comment 2 "https://ohwr.org/cern_ohl_s_v2.txt")
