@@ -5366,10 +5366,6 @@
 		(uuid "bf75b0dc-b252-44b7-837e-ba99ebb0dafa")
 	)
 	(no_connect
-		(at 132.08 59.69)
-		(uuid "ce1fc059-54d3-4807-b87b-50e5eecd3641")
-	)
-	(no_connect
 		(at 50.8 64.77)
 		(uuid "d4df554d-3af8-40c5-85e4-0f801b47ac63")
 	)
@@ -5486,6 +5482,16 @@
 			(type default)
 		)
 		(uuid "0652d3c8-bb13-48a7-ad5e-bb7b7f3eab5e")
+	)
+	(wire
+		(pts
+			(xy 193.04 78.74) (xy 190.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0846fa03-c542-4795-8942-70c065e48582")
 	)
 	(wire
 		(pts
@@ -5629,7 +5635,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 41.91) (xy 50.8 41.91)
+			(xy 35.56 41.91) (xy 50.8 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5959,7 +5965,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 44.45) (xy 50.8 44.45)
+			(xy 35.56 44.45) (xy 50.8 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6559,6 +6565,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 59.69) (xy 134.62 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b445990-b5ea-4f80-85b4-9c98cd0c6de6")
+	)
+	(wire
+		(pts
 			(xy 152.4 177.8) (xy 152.4 180.34)
 		)
 		(stroke
@@ -6969,6 +6985,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 78.74) (xy 190.5 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ad232a-c277-426c-8a63-54ad57ff50cb")
+	)
+	(wire
+		(pts
 			(xy 63.5 41.91) (xy 81.28 41.91)
 		)
 		(stroke
@@ -6996,6 +7022,16 @@
 			(type default)
 		)
 		(uuid "c74558d5-9bf0-4c2f-ae43-943bf96f56e0")
+	)
+	(wire
+		(pts
+			(xy 190.5 76.2) (xy 193.04 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c78d8807-ce7c-4e2b-aeb7-b10299357d5a")
 	)
 	(wire
 		(pts
@@ -7457,6 +7493,16 @@
 		)
 		(uuid "0bf50129-7f8b-4729-9c3a-8c5f91fe834a")
 	)
+	(label "PPS"
+		(at 190.5 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "174a9d56-7329-4e70-b36b-2b496178b15b")
+	)
 	(label "LED4"
 		(at 116.84 41.91 180)
 		(effects
@@ -7558,7 +7604,7 @@
 		(uuid "40ad682b-3934-4d34-bc22-eecac58dfb7e")
 	)
 	(label "UART4_TXD"
-		(at 38.1 44.45 180)
+		(at 35.56 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7666,6 +7712,16 @@
 			(justify right bottom)
 		)
 		(uuid "7b0cc108-f80e-48f2-8f50-33fd17fd78f4")
+	)
+	(label "PPS"
+		(at 48.26 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7cb649ea-3d49-40eb-81f0-3077344a4207")
 	)
 	(label "GPIO_122"
 		(at 180.34 60.96 0)
@@ -7777,13 +7833,13 @@
 		)
 		(uuid "989c2216-3233-4796-b322-b18ab4343658")
 	)
-	(label "GPIO_48"
-		(at 48.26 46.99 180)
+	(label "DE{slash}~{RE}"
+		(at 134.62 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "9e28cc6c-1d74-482e-8b44-607a3f387516")
 	)
@@ -7818,7 +7874,7 @@
 		(uuid "9f75be1d-583b-4c6e-810b-f279a43aa7a1")
 	)
 	(label "UART4_RXD"
-		(at 38.1 41.91 180)
+		(at 35.56 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7866,16 +7922,6 @@
 			(justify right bottom)
 		)
 		(uuid "b89f3796-0ddb-4330-b0d6-4afaff15dd9c")
-	)
-	(label "GPIO_48"
-		(at 86.36 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "baf28381-5e9c-477a-9049-f1b9f753b4de")
 	)
 	(label "LED6"
 		(at 116.84 44.45 180)
@@ -8026,6 +8072,16 @@
 			(justify right bottom)
 		)
 		(uuid "f226e3b2-1125-4221-b1a5-77e4e75f879a")
+	)
+	(label "DE{slash}~{RE}"
+		(at 86.36 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4e77c10-149c-49a8-8648-ad60ae78f7d8")
 	)
 	(label "SCL"
 		(at 142.24 104.14 180)
@@ -18327,6 +18383,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 198.12 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "107cd913-cf0d-4382-90a0-113e334ae06a")
+		(property "Reference" "J104"
+			(at 200.66 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PPS"
+			(at 200.66 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 198.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 198.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d74bfa53-4668-4d75-939f-f2b92bca286e")
+		)
+		(pin "1"
+			(uuid "9ca6de03-ed2e-4bf1-9ec5-0d0b8910ca49")
+		)
+		(instances
+			(project "com4bbb"
+				(path "/bfd666b6-a268-42c4-a4e5-052a7c5965f6"
+					(reference "J104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 254 104.14 0)
 		(unit 1)
@@ -20137,6 +20263,71 @@
 			(project "com4bbb"
 				(path "/bfd666b6-a268-42c4-a4e5-052a7c5965f6"
 					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 190.5 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da94574a-dad3-4686-9793-ff0ad8396b70")
+		(property "Reference" "#PWR0155"
+			(at 190.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 190.5 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 190.5 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54b58de4-66f8-491c-a753-9461a38e4849")
+		)
+		(instances
+			(project "com4bbb"
+				(path "/bfd666b6-a268-42c4-a4e5-052a7c5965f6"
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
