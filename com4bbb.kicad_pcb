@@ -7,6 +7,16 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Communication Cape for Beaglebone Black (RS485 / WiFi)")
+		(date "2021-06-13")
+		(rev "0.1")
+		(company "Benedikt Spranger")
+		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0")
+		(comment 2 "https://ohwr.org/cern_ohl_s_v2.txt")
+		(comment 3 "To view a copy of this license, visit ")
+		(comment 4 "This work is licensed under the CERN-OHL-S v2")
+	)
 	(layers
 		(0 "F.Cu" jumper)
 		(4 "In1.Cu" signal)
@@ -39175,4 +39185,42 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "com4bbb.kicad_wks")
+			(type worksheet)
+			(data |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|
+			)
+			(checksum "DB7D55BE216A108B4215ED4D529D81AC")
+		)
+	)
 )
