@@ -1,4 +1,4 @@
-### Module positions - created on Fri 05 Dec 2025 21:38:12  ###
+### Module positions - created on Sun 07 Dec 2025 10:11:00  ###
 ### Printed by KiBot
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -20,7 +20,7 @@ D112      LED                 LED_0603_1608Metric                               
 D113      LED                 LED_0603_1608Metric                               154.9111   -96.3824    180.0000   top 
 D114      MRA4004T3G          D_SMA                                             127.6201   -61.3824    180.0000   top 
 D115      1N5819WS            D_SOD-323                                         151.3701   -76.3824    90.0000    top 
-D201      SK6812MINI          LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm            124.3701   -124.6324   90.0000    top 
+D201      SK6812MINI-HS-012   LED_WS2812B-Mini_PLCC4_3.5x3.5mm                  124.3701   -124.6324   90.0000    top 
 FB201     FerriteBead_Small   L_0402_1005Metric                                 163.6201   -59.6324    180.0000   top 
 J201      USB_B_Micro         USB_Micro-B_Amphenol_10103594-0001LF_Horizontal   166.1351   -54.6574    90.0000    top 
 Q101      AO3400A             SOT-23                                            159.8701   -102.8824   -90.0000   top 

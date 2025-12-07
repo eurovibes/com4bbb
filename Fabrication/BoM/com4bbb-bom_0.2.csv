@@ -4,7 +4,7 @@ Row,References,Part,Value,P/N,Manufacture,Source,Supplier P/N,Link,Footprint,Des
 3,D115,1N5819WS,1N5819WS,,,JLCPCB,,https://jlcpcb.com/partdetail/GuangdongHottech-1N5819WS/C191023,D_SOD-323,"40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323",1
 4,D101 D102 D103 D104 D105 D106 D107 D108 D109 D110 D111 D112 D113,LED,LED,,Hubei KENTO Elec,JLCPCB,,https://jlcpcb.com/partdetail/Hubei_KENTOElec-KT0603R/C2286,LED_0603_1608Metric,Light emitting diode,13
 5,D114,MRA4004T3G,MRA4004T3G,,,JLCPCB,,https://jlcpcb.com/partdetail/onsemi-MRA4004T3G/C40324,D_SMA,"400V, 1A, General Purpose Rectifier Diode, SMA(DO-214AC)",1
-6,D201,SK6812MINI,SK6812MINI,,,JLCPCB,,https://jlcpcb.com/partdetail/OPSCOOptoelectronics-SK6812MINIHS/C2922787,LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm,RGB LED with integrated controller,1
+6,D201,SK6812MINI-HS-012,SK6812MINI-HS-012,,,JLCPCB,,https://jlcpcb.com/partdetail/OPSCOOptoelectronics-SK6812MINIHS/C2922787,LED_WS2812B-Mini_PLCC4_3.5x3.5mm,RGB LED with integrated controller,1
 7,J202,Conn_01x10,JTAG,,,---,,,Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical,"Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)",1
 8,J101 J102 J103 J104 J105,Conn_01x02,RS485,,,Digikey,2946-236-402-ND,,TerminalBlock_WAGO_236-402_1x02_P5.00mm_45Degree,"Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",5
 9,J201,USB_B_Micro,USB_B_Micro,,,JLCPCB,,https://jlcpcb.com/partdetail/AmphenolICC-101035940001LF/C428495,USB_Micro-B_Amphenol_10103594-0001LF_Horizontal,USB Micro Type B connector,1
